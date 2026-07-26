@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run API Capabilities Canvas",
+            "type": "msedge",
+            "request": "launch",
+            "url": "http://127.0.0.1:5173/",
+            "webRoot": "${workspaceFolder}",
+            "preLaunchTask": "Start Vite dev server"
+        }
+    ]
+}
