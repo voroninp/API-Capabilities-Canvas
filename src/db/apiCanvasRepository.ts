@@ -7,7 +7,7 @@ export async function listApiCanvases(): Promise<readonly ApiCanvas[]> {
   return canvases
 }
 
-export async function getApiCanvasById(apiId: string): Promise<ApiCanvas | undefined> {
+export async function findApiCanvasById(apiId: string): Promise<ApiCanvas | undefined> {
   return database.apiCanvases.get(apiId)
 }
 
