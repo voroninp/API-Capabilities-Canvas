@@ -895,6 +895,41 @@ textarea.inline-cell-input {
   gap: 0.75rem;
 }
 
+.privacy-settings-button {
+  margin-top: auto;
+}
+
+.analytics-modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  background: rgba(32, 23, 11, 0.58);
+  backdrop-filter: blur(3px);
+}
+
+.analytics-modal {
+  width: min(560px, 100%);
+  border: 1px solid var(--line-strong);
+  background: var(--panel-strong);
+  box-shadow: var(--shadow);
+  padding: 1rem;
+  display: grid;
+  gap: 0.8rem;
+}
+
+.analytics-modal h2 {
+  margin: 0;
+  font-size: 1.35rem;
+}
+
+.analytics-modal-footer {
+  display: flex;
+  justify-content: end;
+}
+
 @media (max-width: 1280px) {
   .editor-grid {
     grid-template-columns: 1fr;
